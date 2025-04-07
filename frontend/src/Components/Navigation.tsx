@@ -1,6 +1,6 @@
 const Navigation = () => {
     return (
-      <nav className="bg-white shadow-sm">
+      <nav className="bg-white font-montserrat shadow-sm">
         <div className="w-full max-w-[1400px] px-3 mx-auto">
           <div className="flex justify-between items-center py-4">
             <div className="flex gap-3 items-center">
@@ -17,7 +17,7 @@ const Navigation = () => {
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="px-9 py-1 placeholder-red-900 rounded-md border border-red-900 focus:outline-none focus:ring-1 focus:ring-[#69315E]"
+                  className="px-9 py-1 placeholder-[#69315E] rounded-md border border-[#69315E] focus:outline-none focus:ring-1 focus:ring-[#69315E]"
                 />
               </div>
             </div>
@@ -25,10 +25,10 @@ const Navigation = () => {
             <div className="flex mr-1 px-0 items-center">
               
               <div className="flex space-x-2">
-                <button className="px-4 py-3 border border-red-900 text-sm rounded text-gray-800 hover:bg-gray-50">
+                <button className="px-4 py-3 border border-[#69315E] text-sm rounded text-gray-800 hover:bg-gray-50">
                   Sign in
                 </button>
-                <button className="px-20 py-1 bg-red-900 rounded text-sm text-white  hover:bg-[#69315E]">
+                <button className="px-20 py-1 bg-[#69315E] rounded text-sm text-white  hover:bg-[#69315E]">
                   Sign up
                 </button>
               </div>

@@ -7,12 +7,12 @@ const StatsSection = () => {
     ];
     
     return (
-      <div className="bg-gray-100 py-8">
-        <div className="container mx-auto">
+      <div className="-mt-10   py-8">
+        <div className="container  bg-gray-100 mx-auto">
           <div className="flex flex-wrap justify-center gap-4">
             {stats.map((stat, index) => (
               <div key={index} className="bg-white rounded-lg p-6 w-48 text-center shadow-sm">
-                <h3 className="text-2xl font-bold text-purple-800">{stat.number}</h3>
+                <h3 className="text-2xl font-bold text-[#69315E]">{stat.number}</h3>
                 <p className="text-gray-600">{stat.label}</p>
               </div>
             ))}

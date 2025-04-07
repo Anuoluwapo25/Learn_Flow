@@ -3,9 +3,9 @@ import React from 'react';
 // Hero Section Component
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-[80vh] bg-gray-900 text-white py-16">
+    <div className="relative  z-0 w-full h-[80vh] font-montserrat bg-gray-900 text-white py-16">
       <div className="container mt-20 mx-auto text-center px-4">
-        <h1 className="text-4xl md:text-7xl font-bold mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold mb-7">
           Unlock Your Potential, Expand Your <br></br>Horizons, and Excel in Tech
         </h1>
         <p className="text-lg mb-20 max-w-3xl mx-auto">
@@ -14,7 +14,7 @@ const HeroSection = () => {
           would ever think of. Have the best experience from us.
         </p>
         <div className="flex justify-center gap-4">
-          <button className="bg-[#69315E] hover:bg-red-900 text-white px-6 py-2 rounded-md flex items-center">
+          <button className="bg-[#69315E] border border-white hover:bg-[#88407a] text-white px-6 py-2 rounded-md flex items-center">
             Start for free
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />

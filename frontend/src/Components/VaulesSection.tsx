@@ -1,8 +1,8 @@
 const ValuesSection = () => {
     return (
-      <div className="py-16 bg-white">
+      <div className="py-16 font-montserrat bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">OUR CORE LEARNING VALUES</h2>
+          <h2 className="text-3xl font-bold text-right  mb-12">OUR CORE LEARNING VALUES</h2>
           
           <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-1/2">
