@@ -4,7 +4,11 @@ import HeroSection from './Hero';
 import Alert from './alert';
 import SubHero from './SubHero';
 import StatsSection from './Stats';
+import LearnFlowInstructorPage from './InstructorPage';
 import ValuesSection from './VaulesSection';
+import CoursesSection from './Courses';
+import Feedback from './Feedback';
+import Footer from './Footer';
 // import CoursesSection from './Courses';
 
 const LandingPage = () => {
@@ -14,9 +18,14 @@ const LandingPage = () => {
         <Alert />
         <main>
           <HeroSection />
-          {/* <SubHero /> */}
-          <StatsSection />
+          <SubHero />
+          {/* <StatsSection /> */}
           <ValuesSection />
+          <CoursesSection />
+          <Feedback />
+          <LearnFlowInstructorPage />
+          <Footer />
+
         </main>
       </div>
     );

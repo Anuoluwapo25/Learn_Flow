@@ -1,22 +1,22 @@
 const SubHero = () => {
     return (
-        <div className="bg-gray-100 h-100  -mt-3 ">
-            <div className="grid font-montserrat px-40 grid-cols-4 gap-4">
-                <div>
-                    <h1 className="text-[#69315E] text-4xl ">12K+</h1>
-                    <p>Total Enrolled</p>
+        <div className=" stats-section bg-gray-100 rounded-lg shadow-lg mx-auto max-w-6xl px-6 py-20 relative -mt-28 z-10 ">
+            <div className="grid  text-center px-40 grid-cols-4 gap-4 font-montserrat">
+                <div className="bg-white rounded-lg shadow-lg px-9 py-7">
+                    <h1 className="text-[#69315E] font-bold text-4xl ">12K+</h1>
+                    <p className="font-bold text-sm">Total Enrolled</p>
                     </div>
-                <div>
-                    <h1 className="text-[#69315E] text-4xl">60K</h1>
-                    <p>Courses</p>
+                <div className="bg-white rounded-lg shadow-lg px-9 py-7">
+                    <h1 className="text-[#69315E] font-bold text-4xl">60</h1>
+                    <p className="font-bold text-sm" >Courses</p>
                 </div>
-                <div>
-                    <h1 className="text-[#69315E] text-4xl">120k+</h1>
-                    <p>Instructor</p>
+                <div className="bg-white rounded-lg shadow-lg px-9 py-7">
+                    <h1 className="text-[#69315E] font-bold text-4xl">120+</h1>
+                    <p className="font-bold text-sm">Instructor</p>
                 </div>
-                <div>
-                    <h1 className="text-[#69315E] text-4xl">12+</h1>
-                    <p>Partnership</p>
+                <div className="bg-white rounded-lg shadow-lg px-9 py-7">
+                    <h1 className="text-[#69315E] font-bold text-4xl">12+</h1>
+                    <p className=" font-bold text-sm">Partnership</p>
                 </div>
             </div>
         </div>
